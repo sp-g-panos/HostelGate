@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Hostelgate</title>
+  <link rel="icon" href="images/logos/hostelgate_logo.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hostelgate hostel. Hostel accommodation in Vilnius, Lithuania.">
+  <meta name="keywords" content="hostel, hostel in vilnius, vilnius hostel, vilnius accommodation, dorms, hostelgate" />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/hostelgate.css">
+  <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body id="hostelgatePage">
+
+<img id="fixedLogo" src="images/logos/hostelgate_logo.jpg" alt="logo"></img>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+		    </button>
+			<a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li ><a href="#hostelgatePage">Hostelgate</a></li>
+				<li><a href="hostelgate_bnb.html">Hostelgate BnB</a></li>
+				<li><a href="#contactSection">Contact</a></li> 			
+			</ul>
+		</div>	
+	</div>	
+</nav>
+
+
+<div id="mainCarousel" class="carousel slide" data-ride="carousel" data-interval="3500">
+
+ <div class="row">
+	 <div id="bookButtonDiv" class="col-xs-12 text-center">  
+				<a id="bookButton"  href="http://www.hostelgate.lt/booking_hg.html" class="btn btn-danger" target="_blank">Book Now</a>
+	 </div>
+ </div>
+ 
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mainCarousel" data-slide-to="1"></li>
+    <li data-target="#mainCarousel" data-slide-to="2"></li>
+	<li data-target="#mainCarousel" data-slide-to="3"></li>
+    <li data-target="#mainCarousel" data-slide-to="4"></li>
+    <li data-target="#mainCarousel" data-slide-to="5"></li>
+    <li data-target="#mainCarousel" data-slide-to="6"></li>
+    <li data-target="#mainCarousel" data-slide-to="7"></li>
+  </ol>
+  
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/rooms/hostelgate/street02.jpg" alt="hs_main">
+      <div class="carousel-caption">
+        <h3><strong>Hostelgate</strong></h3>
+        <p><strong>Main entrance</strong></p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="images/rooms/hostelgate/4bed_61.jpg" alt="hs_2">
+      <div class="carousel-caption">
+        <h3><strong>Dorm</strong></h3>
+        <p><strong>4-bed room</strong></p>
+      </div> 
+    </div>
+
+    <div class="item">
+      <img src="images/rooms/hostelgate/3bed_81.jpg" alt="hs_3">
+      <div class="carousel-caption">
+        <h3><strong>Private</strong></h3>
+        <p><strong>3-bed room</strong></p>
+      </div> 
+    </div>
+	
+	<div class="item">
+      <img src="images/rooms/hostelgate/6bed_47.jpg" alt="hs_4">
+      <div class="carousel-caption">
+        <h3><strong>Dorm</strong></h3>
+        <p><strong>6-bed room</strong></p>
+      </div> 
+    </div>
+	
+	<div class="item">
+      <img src="images/rooms/hostelgate/12bed_06.jpg" alt="hs_5">
+      <div class="carousel-caption">
+        <h3><strong>Dorm</strong></h3>
+        <p><strong>12-bed room</strong></p>
+      </div> 
+    </div>
+	
+	<div class="item">
+      <img src="images/rooms/hostelgate/common_21.jpg" alt="hs_6">
+      <div class="carousel-caption">
+        <h3><strong>Upstairs</strong></h3>
+        <p><strong>Common area</strong></p>
+      </div> 
+    </div>
+	
+	<div class="item">
+      <img src="images/rooms/hostelgate/kitchen_13.jpg" alt="hs_7">
+      <div class="carousel-caption">
+        <h3><strong>Upstairs</strong></h3>
+        <p><strong>Kitchen</strong></p>
+      </div> 
+    </div>
+	
+	<div class="item">
+      <img src="images/rooms/hostelgate/sauna_95.jpg" alt="hs_8">
+      <div class="carousel-caption">
+        <h3><strong>Private</strong></h3>
+        <p><strong>Sauna</strong></p>
+      </div> 
+    </div>
+  </div>
+  
+  
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#mainCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#mainCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a> 
+</div>
+
+
+<div id="facilitiesSection" class="container-fluid text-center bg-white">
+    <div class="container-fluid" style="padding-right:30px;padding-left:30px;"> 
+    <h1>Facilities</h1>
+	<hr class="facilities-divider">	
+		<p>Hostelgate is the ideal place for backpackers, young travelers and people that want a cozy accommodation combined with a friendly and socializing atmosphere. 
+		   It is located in the Old town, next to Gate of Dawn, in a walking distance to all the main attractions, bars and clubs that Vilnius has to offer.
+		   Prices depend on season/time so make sure you check them out through the booking system.
+		   Reception is open 24hours a day and we have the most amazing staff that is always willing to help you.
+        </p>
+		<br> 
+	</div>
+	
+	<div class="row">		
+		<div class="col-sm-4">
+			<div class="row slideDownAnim" >
+				<div class="col-sm-6">
+					<img src="images/glyphicons/glyphicons-clock.png"></img>
+					<p><strong>24H Reception</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-wifi.png"></img>
+					<p><strong>Free WiFi</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-group.png"></img>
+					<p><strong>Cozy common area</strong></p>
+				</div>		
+				<div class="col-sm-6">
+					<img src="images/glyphicons/glyphicons-cars.png"></img>
+					<p><strong>Free Parking</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-dining-set.png"></img>
+					<p><strong>Equipped Kitchen</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-washing-machine.png"></img>
+					<p><strong>Washing machine</strong></p>
+				</div>	
+			</div>	
+		</div>
+		<div class="col-sm-4">
+			<img id="logoImg" src="images/logos/hostelgate_logo.jpg" class="img-responsive" alt="hostelgate_image" width="200" height="200">
+		</div>
+		<div class="col-sm-4">
+		<div class="row slideDownAnim" >
+				<div class="col-sm-6">
+				    <img src="images/glyphicons/glyphicons-sauna.png"></img>
+					<p><strong>Sauna</strong></p>				
+					
+					<img src="images/glyphicons/glyphicons-tv.png"></img>
+					<p><strong>Movies</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-soccer-ball.png"></img>
+					<p><strong>Foosball</strong></p>
+				</div>		
+				<div class="col-sm-6">
+				    <img src="images/glyphicons/glyphicons-coffee-cup.png"></img>
+					<p><strong>Free coffee/tea</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-lock.png"></img>
+					<p><strong>Lockers</strong></p>
+					
+					<img src="images/glyphicons/glyphicons-luggage.png"></img>
+					<p><strong>Luggage Storage</strong></p>					
+				</div>	
+			</div>	
+		</div>	
+	</div>
+	
+	<div class="container-fluid" style="padding-right:30px;padding-left:30px;"> 
+		<br><p style="margin-bottom:0;">We offer the following accommodation types:</p>
+		    <ul class="list-inline" style="margin-bottom:0;"> 
+			<li><span class="fa fa-bed"></span></li>
+			<li>3-bed private</li>
+			<li>4-bed dorm</li>
+			<li>5-bed female dorm</li>
+			<li>6-bed dorm</li>
+			<li>10-bed dorm</li>
+			<li>12-bed dorm</li>
+			<li><span class="fa fa-bed" style="direction:rtl; -webkit-transform:rotateY(180deg);"></span></li>
+		  </ul>
+		    <p style="margin-top:0;padding-top:0;">Check out until 12:00 /  Check in from 14:00</p>
+			<p><strong>Please Note:</strong> Cancellation policy is 48h before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay.
+			</p>
+	</div>
+
+</div>
+
+<div id="momentsSection" class="container-fluid text-center bg-grey">
+	
+	<h1>Moments</h1>
+	<p>It's not us who make the difference but the people who are staying with us... </p><br>
+	<div class="container-fluid">
+	
+	    <div class="row slideInAnim"> 
+			<div class="col-sm-6 col-md-3">
+				 <div id="firstThumbnail" class="thumbnail-container" data-toggle="modal" data-target="#momentsModal">
+					<img src="images/moments/h1.jpg" class="img-responsive" alt="t1">		
+					<div class="thumbnail-caption">
+						<p><strong>Kitchen Lunch</strong><br>
+						Cooking skills show off...</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+				  <div id="secondThumbnail" class="thumbnail-container" data-toggle="modal" data-target="#momentsModal" >
+					<img src="images/moments/h13.jpg" class="img-responsive" alt="t2">
+					<div class="thumbnail-caption">
+						<p><strong>The gathering</strong><br>
+						Just chilling...</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+				  <div id="thirdThumbnail" class="thumbnail-container" data-toggle="modal" data-target="#momentsModal" >
+					<img src="images/moments/h7.jpg" class="img-responsive" alt="t3">
+					<div class="thumbnail-caption">
+						<p><strong>Night out</strong><br>
+						Time to party!!!</p>
+					</div>
+				  </div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+				  <div id="forthThumbnail" class="thumbnail-container" data-toggle="modal" data-target="#momentsModal" >
+					<img src="images/moments/h4.jpg" class="img-responsive" alt="t4">
+					<div class="thumbnail-caption">
+						<p><strong>In da room</strong><br>
+						Relaxing after the sauna</p>
+					</div>
+				  </div>
+			</div>	
+		</div>	
+	    <!-- Old thumbnails
+		<div class="row slideInAnim">
+			<div class="col-sm-6 col-md-3">
+			  <div id="firstThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
+				<img src="images/moments/h1.jpg" class="img-responsive top" alt="t1" width="400" height="300">		
+				<p><strong>Kitchen Lunch</strong></p>
+				<p>Cooking skills show off...</p>
+			  </div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+			  <div id="secondThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
+				<img src="images/moments/h13.jpg" class="img-responsive" alt="t2" width="400" height="300">
+				<p><strong>The gathering</strong></p>
+				<p>Just chilling.</p>
+			  </div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+			  <div id="thirdThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
+				<img src="images/moments/h7.jpg" class="img-responsive" alt="t3" width="400" height="300">
+				<p><strong>Night out</strong></p>
+				<p>Time to party!!!</p>
+			  </div>
+			</div>
+			<div class="col-sm-6 col-md-3">
+			  <div id="forthThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
+				<img src="images/moments/h4.jpg" class="img-responsive" alt="t4" width="400" height="300">
+				<p><strong>In da room</strong></p>
+				<p>Relaxing after the sauna.</p>
+			  </div>
+			</div>			
+		</div> -->
+		
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<br>
+				<h4>Recommended activities:</h4>
+				<p> <span class="glyphicon glyphicon-glass"></span><i> 'Pub Crawl' Thursday/Saturday @21:30 <br>
+					<span class="glyphicon glyphicon-eye-open"></span> Free 'City Tour' every day @12:00</i>
+				</p>	
+				<p> <span class="glyphicon glyphicon-star"></span> Our staff is always more than happy to provide you with information about the city 
+					and local events and why not even join you for a drink!!! <span class="glyphicon glyphicon-star"></span> 
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Modal -->
+	<div id="momentsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		
+		  <div class="modal-body"> 
+			<div id="momentsCarousel" class="carousel" data-ride="carousel" data-interval="false">
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+				<div class="item active">
+				  <img src="images/moments/h1.jpg" alt="t1"> 
+				</div>
+
+				<div class="item">
+				  <img src="images/moments/h13.jpg" alt="t2">
+				</div>
+				
+				<div class="item">
+				  <img src="images/moments/h7.jpg" alt="t3"> 
+				</div>
+
+				<div class="item">
+				  <img src="images/moments/h4.jpg" alt="t4">
+				</div>
+			  </div>
+					  
+			  <!-- Left and right controls -->
+			  <a class="left carousel-control" href="#momentsCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#momentsCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a> 
+			</div>
+		  </div>
+		
+		</div>
+
+	  </div>
+	</div>
+	
+</div>
+
+
+
+<div id="contactSection" class="container text-center bg-white">
+	<h1>Contact</h1>	
+	<h4>Feel free to contact us in case you have more questions.</h4>
+	<br>
+	<h3><strong>Hostelgate</strong></h3>	
+	<hr class="contact_divider">
+	
+	<div class="row">
+		<div class="col-sm-4">
+			<p class="slideOutAnim"><span class="fa fa-map-marker"></span><br>Ausros Vartu 17-1 (Vilnius, Lithuania)</p>
+		</div>
+		<div class="col-sm-4">
+			<p class="slideOutAnim"><span class="fa fa-phone"></span><br>+370-63832818</p>
+		</div>
+		<div class="col-sm-4">
+			<p class="slideOutAnim"><span class="fa fa-envelope"></span><br>hostelgate@gmail.com</p> 
+		</div>
+	</div>
+	
+	<div class="row">
+	 <div class="col-sm-12">
+		<p class="slideOutAnim"><a href="http://www.facebook.com/hostelgate" target="_blank"><span class="fa fa-facebook"></span><br>Find us on facebook</a></p> 
+		<br>
+		<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#directionsModal">Directions to Hostelgate</button>	
+	 </div>
+	</div>
+	<br>
+	
+
+	<!-- Modal -->
+	<div id="directionsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h3 class="modal-title">The Way to Hostelgate <span class="glyphicon glyphicon-road"></span></h3>
+		  </div>
+		  
+		  <div class="modal-body">
+			<h4><strong>~ From the Airport (5km) ~</strong></h4>
+				<div class="row">
+					<div class="col-sm-4">
+						<h5><strong>BY TAXI</strong></h5>
+						<hr>
+						<p>
+						<span class="fa fa-money"></span> 10-15 &euro;<br>
+						<span class="glyphicon glyphicon-time"></span> 10-15 minutes<br>
+						You can find a lot of Taxis in the aiport. Make sure you ask about the price before you go in!!!
+						</p>
+					</div>
+					<div class="col-sm-4">	
+						<h5><strong>BY BUS</strong></h5> 
+						<hr>
+						<p>
+						<span class="fa fa-money"></span> 1 &euro;<br>
+						<span class="glyphicon glyphicon-time"></span> 30-40 minutes<br>
+						 Take bus 1 or 2 and get off at the last stop (Stotis-the train station). First bus is around 5:30 and last bus around 22:15.
+						</p>
+					</div>
+					<div class="col-sm-4">	
+						<h5><strong>BY TRAIN</strong></h5>
+						<hr>
+						<p>
+						<span class="fa fa-money"></span> 1 &euro;<br>
+						<span class="glyphicon glyphicon-time"></span> 30-40 minutes<br>
+						Train station is out of the airport. Trains come every 30 minutes. Get off at last stop (Stotis).
+						</p>
+					</div>
+				</div>
+			<br>
+			<h4><strong>~ From the Train station - Stotis (750m) ~</strong></h4>
+				<h5><strong>BY FEET</strong></h5>
+				<hr>
+				<p>
+				<span class="fa fa-money"></span> 0 &euro; &nbsp; &nbsp; &nbsp; 
+				<span class="glyphicon glyphicon-time"></span> 7 minutes<br>
+				Once you are in the train station (Stotis) all you have to do is walk. Hostelgate is only 7 minutes away. Make sure you follow the instructions of the PDF.
+				</p>
+				<a href="Photoshop/Hostelgate_Directions.pdf" class="btn btn-success btn-lg" download>Download PDF <span class="glyphicon glyphicon-download-alt"></span></a>
+		  </div>
+		  
+		  <div class="modal-footer">
+		    <div class="pull-left">
+				<p class="pull-left">
+				<span class="glyphicon glyphicon-map-marker"></span> Ausros Vartu 17-1 (Vilnius, Lithuania) <br> 
+				<span class="glyphicon glyphicon-phone"></span> +370-63832818				
+				</p>				
+			</div>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>			
+			
+		  </div>
+		</div>
+
+	  </div>
+	</div>
+</div>
+
+<div id="hs_googleMap" class="googleMap"></div>	
+
+<footer class="container-fluid text-center bg-grey">
+  <a href="#hostelgatePage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Copyright &copy; 2016 - Hostelgate &amp; Hostelgate BnB - All rights reserved.</p>		
+</footer>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+<script src="JS/hostelgate.js"></script>
+
+</body>
+</html>

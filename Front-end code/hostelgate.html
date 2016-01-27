@@ -10,12 +10,11 @@
   <meta name="keywords" content="hostel, hostel in vilnius, vilnius hostel, vilnius accommodation, dorms, hostelgate" />
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="CSS/hostelgate.css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  
+  <link rel="stylesheet" type="text/css" href="CSS/hostelgate.css">
 </head>
 
 <body id="hostelgatePage">
@@ -34,9 +33,9 @@
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav navbar-right">
-				<li ><a href="#hostelgatePage">Hostelgate</a></li>
-				<li><a href="hostelgate_bnb.html">Hostelgate BnB</a></li>
-				<li><a href="#contactSection">Contact</a></li> 			
+				<li ><a href="#hostelgatePage"><span class="nav-capitalize">H</span>OSTELGATE</a></li>
+				<li><a href="hostelgate_bnb.html"><span class="nav-capitalize">H</span>OSTELGATE <span class="nav-capitalize">B</span>n<span class="nav-capitalize">B</span></a></li>
+				<li><a href="#contactSection"><span class="nav-capitalize">C</span>ONTACT</a></li> 				
 			</ul>
 		</div>	
 	</div>	
@@ -145,7 +144,7 @@
 
 
 <div id="facilitiesSection" class="container-fluid text-center bg-white">
-    <div class="container-fluid" style="padding-right:30px;padding-left:30px;"> 
+    <div class="info-div"> 
     <h1>Facilities</h1>
 	<hr class="facilities-divider">	
 		<p>Hostelgate is the ideal place for backpackers, young travelers and people that want a cozy accommodation combined with a friendly and socializing atmosphere. 
@@ -210,9 +209,10 @@
 		</div>	
 	</div>
 	
-	<div class="container-fluid" style="padding-right:30px;padding-left:30px;"> 
-		<br><p style="margin-bottom:0;">We offer the following accommodation types:</p>
-		    <ul class="list-inline" style="margin-bottom:0;"> 
+	<div class="info-div"> 
+		<br>
+		<p id="p1">We offer the following accommodation types:</p>
+		<ul class="list-inline"> 
 			<li><span class="fa fa-bed"></span></li>
 			<li>3-bed private</li>
 			<li>4-bed dorm</li>
@@ -220,11 +220,10 @@
 			<li>6-bed dorm</li>
 			<li>10-bed dorm</li>
 			<li>12-bed dorm</li>
-			<li><span class="fa fa-bed" style="direction:rtl; -webkit-transform:rotateY(180deg);"></span></li>
-		  </ul>
-		    <p style="margin-top:0;padding-top:0;">Check out until 12:00 /  Check in from 14:00</p>
-			<p><strong>Please Note:</strong> Cancellation policy is 48h before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay.
-			</p>
+			<li><span class="fa fa-bed"></span></li>
+		 </ul>
+		<p id="p2">Check out until 12:00 /  Check in from 14:00</p>
+		<p><strong>Please Note:</strong> Cancellation policy is 48h before arrival. In case of a late cancellation or No Show, you will be charged the first night of your stay.</p>		
 	</div>
 
 </div>
@@ -273,37 +272,6 @@
 				  </div>
 			</div>	
 		</div>	
-	    <!-- Old thumbnails
-		<div class="row slideInAnim">
-			<div class="col-sm-6 col-md-3">
-			  <div id="firstThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
-				<img src="images/moments/h1.jpg" class="img-responsive top" alt="t1" width="400" height="300">		
-				<p><strong>Kitchen Lunch</strong></p>
-				<p>Cooking skills show off...</p>
-			  </div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-			  <div id="secondThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
-				<img src="images/moments/h13.jpg" class="img-responsive" alt="t2" width="400" height="300">
-				<p><strong>The gathering</strong></p>
-				<p>Just chilling.</p>
-			  </div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-			  <div id="thirdThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
-				<img src="images/moments/h7.jpg" class="img-responsive" alt="t3" width="400" height="300">
-				<p><strong>Night out</strong></p>
-				<p>Time to party!!!</p>
-			  </div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-			  <div id="forthThumbnail" class="thumbnail" data-toggle="modal" data-target="#momentsModal" >
-				<img src="images/moments/h4.jpg" class="img-responsive" alt="t4" width="400" height="300">
-				<p><strong>In da room</strong></p>
-				<p>Relaxing after the sauna.</p>
-			  </div>
-			</div>			
-		</div> -->
 		
 		<div class="row">
 			<div class="col-xs-12 text-center">
@@ -426,7 +394,7 @@
 						<hr>
 						<p>
 						<span class="fa fa-money"></span> 1 &euro;<br>
-						<span class="glyphicon glyphicon-time"></span> 30-40 minutes<br>
+						<span class="glyphicon glyphicon-time"></span> 20-30 minutes<br>
 						 Take bus 1 or 2 and get off at the last stop (Stotis-the train station). First bus is around 5:30 and last bus around 22:15.
 						</p>
 					</div>
@@ -435,7 +403,7 @@
 						<hr>
 						<p>
 						<span class="fa fa-money"></span> 1 &euro;<br>
-						<span class="glyphicon glyphicon-time"></span> 30-40 minutes<br>
+						<span class="glyphicon glyphicon-time"></span> 15-25 minutes<br>
 						Train station is out of the airport. Trains come every 30 minutes. Get off at last stop (Stotis).
 						</p>
 					</div>
@@ -478,7 +446,6 @@
 </footer>
 
 <script src="http://maps.googleapis.com/maps/api/js"></script>
-
 <script src="JS/hostelgate.js"></script>
 
 </body>

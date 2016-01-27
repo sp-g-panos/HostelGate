@@ -41,7 +41,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 //Smooth scrolling
 $(document).ready(function(){
   // Add smooth scrolling
-  $(".navbar-brand, .navbar a[href='#contactSection'], footer a[href='#mainPage']").on('click', function(event) {
+  $(".navbar-brand, .navbar a[href='#contactSection'], .intro-header a[href='#aboutSection'], footer a[href='#mainPage']").on('click', function(event) {
 
   // Prevent default anchor click behavior
   event.preventDefault();
@@ -52,7 +52,7 @@ $(document).ready(function(){
   // Using jQuery's animate() method to add smooth page scroll
   // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
   $('html, body').animate({
-    scrollTop: $(hash).offset().top
+    scrollTop: $(hash).offset().top-50 //subtract 50px because of the space the navbar takes
   }, 900, function(){
 
     // Add hash (#) to URL when done scrolling (default click behavior)
